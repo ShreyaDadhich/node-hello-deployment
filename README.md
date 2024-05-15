@@ -66,7 +66,7 @@ Open http://localhost:8080 in any web browser to access Argo CD UI
 ![Argo CD landing page](documentation/landing-page.png)
 
 #### 2.2. Getting the credentials
-> [!NOTE] 
+> [!IMPORTANT] 
 > Default username is **admin**.
 > Argo CD automatically create an initial password for the first time login.
 
