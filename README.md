@@ -26,10 +26,10 @@ $ argocd app create node-hello-test \
     --dest-namespace node-hello-test \
     --sync-option CreateNamespace=true \
     --parameter namespace=node-hello-test \
-    --sync-policy automated 
+    --sync-policy manual 
 ```
 > [!NOTE]  
-> For the sake of simplicity **sync-policy** is set to **automated**. In production environment this should be set to **manual**.
+> `sync-policy` can be set to `automated` instead of `manual` which allows argo to automatically sync with the current changes in the application.
 
 The objects defined by the Helm chart will be added to your cluster. 
 
