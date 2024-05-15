@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "node-hello-chart.fullname" . }}
+  namespace: {{ .Values.namespace }}
   labels:
     {{- include "node-hello-chart.labels" . | nindent 4 }}
 spec:
