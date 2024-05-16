@@ -96,7 +96,7 @@ Scroll down the page and finish configuring your app by setting the destination 
 - namespace: test
 ```
 
-![General configuration](documentation/general_config.png)
+![General configuration](documentation/general-config.png)
 
 Next, scroll down to the Source section. Enter the URL of your GitHub repository and then the path to your Helm chart.
 
