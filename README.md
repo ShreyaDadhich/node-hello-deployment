@@ -84,7 +84,6 @@ Helm chart applications can also be created using the Argo web UI, without any C
 
 ![new app button](documentation/new-app-button.png)
 
-Scroll down the page and finish configuring your app by setting the destination Kubernetes cluster and the directory options to apply.
 ``` 
 # Configurations for node-hello app
 - application name: test
