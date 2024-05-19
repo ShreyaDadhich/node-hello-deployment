@@ -44,8 +44,9 @@ argocd: v2.11.0+d3f33c0
   Platform: windows/amd64
 argocd-server: v2.11.0+d3f33c0
 ```
-kubectl config get-contexts -o name
-argocd cluster add docker-desktop
+```
+kubectl config get-contexts -o name argocd cluster add docker-desktop
+```
 
 ### 2. Setup ArgoCD <a name = "argocd-setup"></a>
 #### 2.1. Hosting argocd-server 
